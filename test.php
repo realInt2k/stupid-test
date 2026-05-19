@@ -46,3 +46,6 @@ function unscheduled_original_file_deletion(string $post_id ): float {
     $x = 10/$random;
     return 1000;
 }
+
+$x = unscheduled_original_file_deletion("LMFAO");
+print $x;
